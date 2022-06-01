@@ -1,0 +1,50 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.p {
+    margin: 0px;
+
+
+}
+
+.info {
+    font-size: 150%;
+
+}
+
+.stopper {
+    position: fixed;
+    top: 10vh;
+    left: 5vw;
+}
+
+.radio {
+    position: fixed;
+    top: 1vh;
+    left: 1vw;
+}
+
+.control {
+    display: grid;
+    grid-template-columns: 10vw 11vw;
+    grid-column-gap: 1vw;
+    margin-bottom: 1.5vh;
+}
+
+.bigContainer {
+    position: fixed;
+    top: 2vh;
+    left: 78vw;
+
+}
